@@ -31,6 +31,7 @@ Pentru a putea fi interpretate aceste Hipertexte, a fost folosită o interfață
     - Necesită un DTD (Document Type Definition) pentru a declara ce etichete sunt permise și care este ierarhia lor
     - Status: Obsolet
 
+Exemplu SGML:
 ```
 <!DOCTYPE RAPORT [
 <!ELEMENT RAPORT - - (TITLU, AUTOR, CONTINUT)>
@@ -71,6 +72,7 @@ Exemplu HTML:
     - Compromis între complexitatea extremă a SGML și rigiditatea HTML. Limbaj de marcare conceput exclusiv pentru stocarea și transportul datelor, nu pentru afișarea lor
     - Status: Destul de folosit, deși în dezvoltarea web modernă este înlocuit destul de mult de formatul JSON (JavaScript Object Notation)
     - Folosit în layout-urile aplicațiilor Android, configurări Java Spring și ca structură pentru alte formate de fișiere (ex. fișierele .docx din Microsoft Word sau grafica vectorială .svg care sunt teoretic fișiere XML arhivate).
+
 Exemplu XML:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -87,6 +89,7 @@ Exemplu XML:
 - MHEG (Multimedia and Hypermedia information coding Expert Group)
     - Diferit fata de cele prezentate, nu se bazeaza pe paranteze unghiulare `<>`, ci defineste clase si obiecte (abordare orientata pe obiecte) pentru a prezenta continut interactiv
     - Status: Obsolet
+
 Exemplu MHEG:
 ```
 {:Scene ( "Meniu_Principal" 0 )
@@ -143,6 +146,7 @@ Pentru dispozitive mobile de dimensiuni mici, HTML este înlocuit de:
 - HDML (Handheld Device Markup Language)
     - Asemănător cu HTML, dar mult mai simplificat
     - Status: Obsolet
+
 Exemplu de HDML:
 ```
 <HDML VERSION=1.0>
@@ -191,7 +195,6 @@ Prin rigiditate, se înțelege faptul că nu acceptă nicio eroare de sintaxă, 
 Pentru a înfrumuseța afișarea informațiilor, au fost adăugate foile de stiluri în cascadă (CSS - Cascading Style Sheet), care se linkează cu fișierele HTML și permit schimbarea atributelor fiecărui tag în parte.
 
 Exemplu CSS:
-
 ```css
 selector {
     proprietate: valoare;

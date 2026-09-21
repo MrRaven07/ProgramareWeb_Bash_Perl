@@ -11,9 +11,8 @@ Acest subcapitol prezinta o scurta istorie a Hipertextului (Hypertext) precum si
 > [Wikipedia: Hypertext](https://en.wikipedia.org/wiki/Hypertext)
 
 
-<p align="center">
-  <img width="50%" src="./cap1surse/Hyperlinks_scheme.svg.webp"/>
-</p>
+
+<img width="50%" src="./cap1surse/Hyperlinks_scheme.svg.webp"/>
 
 *Sursa: [Wikipedia Hyperlinks_scheme](https://en.wikipedia.org/wiki/File:Hyperlinks_scheme.svg)*
 
